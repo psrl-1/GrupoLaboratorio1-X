@@ -2,7 +2,7 @@
 #include <windows.h>
 
 
-int calorias = 2000;
+float calorias = 2000;
 
 int main ()
 {
