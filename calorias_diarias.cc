@@ -10,3 +10,8 @@ int main ()
     
   return 0;
 }
+
+void QuemarCalorias(int *calorias, int calorias_quemadas)
+{
+    *calorias -= calorias_quemadas;
+}
