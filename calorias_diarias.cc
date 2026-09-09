@@ -1,7 +1,7 @@
 #include <iostream>
 #include <windows.h>
 
-void ConsultarCalorias (float calorias);
+void consultar_calorias (float calorias);
 float calorias = 2000;
 
 int main ()
@@ -11,7 +11,7 @@ int main ()
   return 0;
 }
 
-void ConsultarCalorias (float calorias)
+void consultar_calorias (float calorias)
 
 {
   std:: cout <<"Tus calorias son: " <<calorias << "cal" << std:: endl;
