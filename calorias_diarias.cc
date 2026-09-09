@@ -19,6 +19,15 @@ int main()
   AgregarCalorias(calorias, 100);
   ConsultarCalorias(calorias);
 
+  // Quitar calorias y comprobar el total.
+  QuemarCalorias(&calorias, 100);
+  
+  if (calorias <= 0)
+  {
+    std::cout << "Calorias invalidas." << std::endl;
+  }
+  else
+    ConsultarCalorias(calorias);
   return 0;
 }
 
