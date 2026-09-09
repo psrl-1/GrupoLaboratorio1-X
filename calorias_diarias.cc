@@ -23,11 +23,19 @@ int main()
   QuemarCalorias(&calorias, 100);
   
   if (calorias <= 0)
+
+  // Prueba del if
+  std::cout << "Ingrese las calorias a quemar: ";
+  std::cin >> calorias_quemadas;
+
+  QuemarCalorias(&calorias, calorias_quemadas);
+  if (calorias <= 0)
   {
     std::cout << "Calorias invalidas." << std::endl;
   }
   else
     ConsultarCalorias(calorias);
+
   return 0;
 }
 
