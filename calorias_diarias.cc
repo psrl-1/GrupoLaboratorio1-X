@@ -1,6 +1,7 @@
 #include <iostream>
 #include <windows.h>
 
+void AgregarCalorias
 
 float calorias = 2000;
 
