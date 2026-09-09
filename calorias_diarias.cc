@@ -1,8 +1,9 @@
 #include <iostream>
 #include <windows.h>
 
+void AgregarCalorias(float &calorias, int calorias_nuevas);
 
-int calorias = 2000;
+float calorias = 2000;
 
 int main ()
 {
@@ -14,4 +15,7 @@ int main ()
 void QuemarCalorias(int *calorias, int calorias_quemadas)
 {
     *calorias -= calorias_quemadas;
+void AgregarCalorias(float &calorias, int calorias_nuevas)
+{
+  calorias += calorias_nuevas;
 }
